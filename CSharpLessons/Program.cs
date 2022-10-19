@@ -1,22 +1,6 @@
 ﻿using System;
 
-//new Lesson3Insight_1stPart().StringMagic();
-
-new Homework().Task_1();
-
-class Homework
-{
-    public void Task_1()
-    {
-        //Do something
-    }
-
-    public void Task_2()
-    {
-        //Do Something
-    }
-}
-
+new Lesson3Insight_1stPart().BoxingUnboxing();
 
 class Lesson3Insight_1stPart
 {
@@ -104,7 +88,20 @@ class Lesson3Insight_1stPart
         var newPoem = poem.Replace("yellow", newAdj);
         var newPoem1 = poem.Replace('a', 'o');
         Console.WriteLine(newPoem1);
+    }
 
+    public void ChangeString()
+    {
+        Console.WriteLine("Enter the number:");
+        var numberToString = Console.ReadLine();
+
+        //var numberToInt = Convert.ToSingle(numberToString);
+
+        //var numberToInt = int.Parse(numberToString);
+        int number;
+        var isNumber = int.TryParse(numberToString, out number);
+
+        Console.WriteLine($"Number is {number}");
     }
 
     #endregion
@@ -139,6 +136,23 @@ class Lesson3Insight_1stPart
     % Деление по модулю
     */
 
+    public void DecreaseOperator()
+    {
+        var a = 5;
+        var b = 3;
+
+        var c = a + b;
+        a = a + b;
+        a += b;
+        a *= b;
+        a /= b;
+
+        var d = a += b;
+        var e = a -= b;
+        var f = a %= b;
+
+    }
+
     #endregion
 
     #region Операторы сравнения
@@ -151,6 +165,17 @@ class Lesson3Insight_1stPart
     >= Больше или равно
     <= Меньше или равно
     */
+
+    public void CompareOperators()
+    {
+        bool a = true;
+        bool b = !a;
+
+        int c = 5;
+        int d = 5;
+        bool e = c != d;
+
+    }
 
     #endregion
 
@@ -167,6 +192,14 @@ class Lesson3Insight_1stPart
     ^  Логическое исключение ИЛИ
     */
 
+    public void CharacterInfo()
+    {
+        bool hasGun = false;
+        bool hasHealth = true;
+
+        Console.WriteLine($"Is character fully equipped? [{hasHealth && hasGun}]");
+    }
+
     #endregion
 
     #endregion
@@ -179,6 +212,28 @@ class Lesson3Insight_1stPart
     --a Декремент префиксный
     a-- Декремент постфиксный
     */
+
+    public void MagicIncrement()
+    {
+        int a = 1;
+        a = a++ * a;
+        Console.WriteLine(a);
+    }
+
+    #endregion
+
+    #region Приведение типов
+
+    public void BoxingUnboxing()
+    {
+        //int a = 5;
+        //object b = a;
+        //var c = (int)b;
+
+        double a = 25000.65;
+        int b = (int)a;
+
+    }
 
     #endregion
 }
