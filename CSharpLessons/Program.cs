@@ -1,6 +1,12 @@
 ﻿using System;
+using CSharpOOP;
 
 new Lesson3Insight_1stPart().BoxingUnboxing();
+
+
+var pumpkin = new Pumpkin();
+pumpkin.CheckColor();
+pumpkin.Color = "Yellow";
 
 class Lesson3Insight_1stPart
 {
