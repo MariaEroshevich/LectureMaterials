@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics.csproj", "{271EBCAD-A185-4D63-B7D0-F1F711F93832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpBasics", "CSharpBasics.csproj", "{271EBCAD-A185-4D63-B7D0-F1F711F93832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "..\LINQ\LINQ.csproj", "{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{271EBCAD-A185-4D63-B7D0-F1F711F93832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{271EBCAD-A185-4D63-B7D0-F1F711F93832}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{271EBCAD-A185-4D63-B7D0-F1F711F93832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
