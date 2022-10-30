@@ -1,13 +1,10 @@
-﻿using Microsoft.VisualBasic;
+﻿using CSharpOOP;
 
-var names = new List<string>();
+Pumpkin pumpkinGreg = new Pumpkin { Name = "Greg", Age = 55, Color = "Orange", HasTail = true };
+Pumpkin pumpkinHarry = new Pumpkin { Name = "Harry", Age = 13, Color = "Green", HasTail = false };
+Pumpkin pumpkinJane = new Pumpkin { Name = "Jane", Age = 23, Color = "Yellow", HasTail = true };
 
-var queryExtension = names.Where(n => n.Contains('f')).Select(n => n.ToUpper()).OrderBy(n => n.Length);
-var queryQuery = from n in names
-                 where n.Contains('f')
-                 orderby n.Length
-                 select n.ToUpper();
+var domesticAnimals = new List<string> { "Cat", "Dog", "Parrot" };
+var allAnimals = new List<string> { "Zebra", "Elephant", "Cat", "Dog", "Lion", "Giraffe", "Parrot" };
 
-var objects = new List<object> { "sdfsf", 32, 85.4 };
-var query = objects.OfType<string>().ToList();
-Console.ReadLine();
+
