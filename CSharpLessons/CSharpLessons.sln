@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpBasics", "CSharpBasics.csproj", "{271EBCAD-A185-4D63-B7D0-F1F711F93832}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOOP", "..\CSharpOOP\CSharpOOP.csproj", "{32F84752-C4CC-4073-BD43-E8BB7818E438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpOOP", "..\CSharpOOP\CSharpOOP.csproj", "{32F84752-C4CC-4073-BD43-E8BB7818E438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "..\LINQ\LINQ.csproj", "{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "..\LINQ\LINQ.csproj", "{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAdvanced", "..\CSharpAdvanced\CSharpAdvanced.csproj", "{D98BF380-D308-43AD-9848-8F0BAAAE6012}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C8DD2B-094A-426B-B8E7-8A8CE92D380D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98BF380-D308-43AD-9848-8F0BAAAE6012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98BF380-D308-43AD-9848-8F0BAAAE6012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98BF380-D308-43AD-9848-8F0BAAAE6012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98BF380-D308-43AD-9848-8F0BAAAE6012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
